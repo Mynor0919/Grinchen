@@ -1,0 +1,293 @@
+@font-face {
+  font-family: 'Grinched';
+  src: url('GrinchedRegular.ttf');
+}
+@font-face {
+  font-family: 'WorkSans';
+  src: url('work-sans/TTF/WorkSans-Regular.ttf');
+}
+@font-face {
+  font-family: 'WorkSansItalic';
+  src: url('work-sans/TTF/WorkSans-MediumItalic.ttf');
+}
+@font-face {
+  font-family: 'WorkSansThin';
+  src: url('work-sans/TTF/WorkSans-Thin.ttf');
+}
+
+/* Whole page */
+body {
+  margin: 0px;
+  background-color: rgb(40, 66, 103);
+
+  /* Center all on page */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+nav {
+  width: 100%;
+  height: 40px;
+  background: rgb(23, 42, 68);
+  padding-top: 10px;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+}
+nav img {
+  height: 30px;
+  width: 30px;
+  margin: 0px 20px 0px 50px;
+  float: left;
+}
+.nav h1 {
+ padding-left: 20px;
+}
+
+nav h1{
+float: left;
+margin: 0px 0px 0px 0px;
+line-height: 30px;
+}
+
+/* All images */
+img {
+  object-fit: contain;
+}
+
+/* Movie background */
+.movie-background {
+  height: 130vh;
+  width: 100%;
+  position: relative;
+  margin-bottom: 100px;
+  background-image:  linear-gradient(to bottom, rgba(245, 246, 252, 0), rgba(40, 66, 103)), url(background.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Content on movie background */
+.movie-background .container {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 50px 100px 50px 100px;
+  position: absolute;
+  top: 20vh;
+  left: 20%;
+  right: 20%;
+  z-index: 1;
+}
+.movie-background .container {
+  border-radius: 16px;
+}
+.movie-background .container .grinfo {
+  width: 100%;
+  display: flex;
+}
+/* Cover */
+.movie-background .container .grinfo .cover {
+  width: 30%;
+  margin-right: 1%;
+}
+.movie-background .container .grinfo .trailer {
+  width:69%;
+  top: 0px;
+  bottom: 0px;
+}
+/* Content */
+.movie-background .container .content {
+  font-family: 'WorkSans', Courier, monospace;
+  font-size: 15px
+}
+
+/* Paragraph only in movie bacground */
+.movie-background .container .content p {
+  color: #ffffff;
+}
+.btn-watchme {
+  border: none;
+  background-color: #209920;
+  margin: 0px 10px 5px 0px;
+  padding: 10px 15px;
+  font-family: WorkSansItalic;
+  font-size: 15px;
+  border-radius: 25%;
+  border: 2px solid rgba 40, 66, 103;
+  cursor: pointer;
+  display: inline-block;
+}
+.btn-family {
+  border: none;
+  background-color: #5e6291;
+  margin: 20px 15px 0px 5px;
+  padding: 5px 10px;
+  font-family: WorkSans;
+  font-size: 10px;
+  color: #ffffff;
+  border-radius: 25%;
+  border: 2px solid rgba 40, 66, 103;
+  cursor: pointer;
+  display: inline-block;
+}
+.btn-comedy {
+  border: none;
+  background-color: #5e6291;
+  margin: 20px 15px 0px 5px;
+  padding: 5px 10px;
+  font-family: WorkSans;
+  font-size: 10px;
+  color: #ffffff;
+  border-radius: 25%;
+  border: 2px solid rgba 40, 66, 103;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.btn-seewholecast {
+  border: none;
+  background-color: #5e6291;
+  margin: 20px 30px 0px 0px;
+  padding: 5px 10px;
+  font-family: WorkSans;
+  font-size: 10px;
+  color: #ffffff;
+  cursor: pointer;
+  position: left;
+}
+.btn-watchme {border-radius: 8px;
+}
+.btn-family {border-radius: 8px;
+}
+.btn-comedy {border-radius: 8px;
+}
+.btn-seewholecast {border-radius: 8px;
+  margin-bottom: 100px;
+  align-self: center;
+}
+.btn-seemore {border-radius: 8px;
+  border: none;
+  background-color: #5e6291;
+  margin: 20px 30px 100px 0px;
+  padding: 5px 10px;
+  font-family: WorkSans;
+  font-size: 10px;
+  color: #ffffff;
+  cursor: pointer;
+  position: left;
+}
+
+.player {
+  height: 30px;
+  background-color: #209920;
+}
+
+.cast {
+  margin-top: 150px;
+}
+
+.cast img{
+  border-radius: 50%;
+
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.character {
+  float: left;
+  width: 25%%;
+  padding: 40px;
+}
+
+.photos h1 {
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+
+.photos img {
+  padding-left: 20px;
+  height: 200px;
+  width: 200px;
+}
+
+.grinchwalk img {
+  height: 300px;
+  width: 300px;
+  margin-top: 200px;
+  margin-bottom: 0;
+}
+
+.snowground img {
+  max-width: 100%;
+  margin-top: 0;
+}
+
+/* Character content */
+.content h2 {
+  color: white;
+  font-family: 'WorkSans', Courier, monospace;
+  text-align: center;
+  font-size: 18px;
+}
+.content h3 {
+  color: white;
+  font-family: 'WorkSansThin', Courier, monospace;
+  text-align: center;
+  font-size: 15px;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 2px solid rgb(85, 85, 85);
+  margin: 1em 0;
+  padding: 0;
+}
+/* Rating */
+.rating {
+  display: inline-block;
+  width: 29%;
+  right: 0px;
+  text-align: right;
+}
+
+/* Rating image */
+.rating .rate {
+  width: 15px;
+  height: 15px;
+}
+
+/* Rating title */
+.rating h4 {
+  color: white;
+  font-family: 'WorkSans', Courier, monospace;
+  display: inline;
+  right: 0px;
+  font-size: 20px;
+}
+
+.rating .big {
+  color: white;
+  font-family: 'WorkSans', Courier, monospace;
+  font-size: 20px;
+}
+
+
+/* Typography */
+h1 {
+  color: white;
+  font-family: 'Grinched', Courier, monospace;
+  text-align: center;
+}
+h1.title{
+  width: 70%;
+  display: inline-block;
+  text-align: left;
+}
+
+.year {
+  color: white;
+  font-family: 'WorkSans', Courier, monospace;
+  font-size: 12px
+}
