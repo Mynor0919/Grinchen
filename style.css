@@ -4,15 +4,15 @@
 }
 @font-face {
   font-family: 'WorkSans';
-  src: url('work-sans/TTF/WorkSans-Regular.ttf');
+  src: url('work-sans/WorkSans-Regular.ttf');
 }
 @font-face {
   font-family: 'WorkSansItalic';
-  src: url('work-sans/TTF/WorkSans-MediumItalic.ttf');
+  src: url('work-sans/WorkSans-MediumItalic.ttf');
 }
 @font-face {
   font-family: 'WorkSansThin';
-  src: url('work-sans/TTF/WorkSans-Thin.ttf');
+  src: url('work-sans/WorkSans-Thin.ttf');
 }
 
 /* Whole page */
