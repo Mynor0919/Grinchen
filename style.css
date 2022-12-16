@@ -109,7 +109,7 @@ img {
   border: none;
   background-color: #209920;
   margin: 0px 10px 5px 0px;
-  padding: 10px 15px;
+  padding: 15px 15px;
   font-family: WorkSansItalic;
   font-size: 15px;
   border-radius: 25%;
@@ -120,7 +120,7 @@ img {
 .btn-family {
   border: none;
   background-color: #5e6291;
-  margin: 20px 15px 0px 5px;
+  margin: 30px 15px 0px 5px;
   padding: 5px 10px;
   font-family: WorkSans;
   font-size: 10px;
@@ -133,7 +133,7 @@ img {
 .btn-comedy {
   border: none;
   background-color: #5e6291;
-  margin: 20px 15px 0px 5px;
+  margin: 30px 15px 0px 5px;
   padding: 5px 10px;
   font-family: WorkSans;
   font-size: 10px;
